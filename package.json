@@ -1,6 +1,6 @@
 {
   "name": "@netshards/ns-omi-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Omi game test using redux managed state",
   "main": "src/index.js",
   "scripts": {
