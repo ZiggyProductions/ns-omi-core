@@ -2,9 +2,10 @@
   "name": "@netshards/ns-omi-core",
   "version": "1.0.2",
   "description": "Omi game test using redux managed state",
-  "main": "src/index.js",
+  "main": "./build/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel ./src --out-dir ./build --source-maps --presets=es2015 && webpack"
   },
   "repository": {
     "type": "git",
@@ -16,11 +17,12 @@
   "author": "Gevorg Aznauryan aka GAZ <gazilius@gmail.com> (http://ziggy.productions/)",
   "license": "MIT",
   "dependencies": {
+    "babel-cli": "^6.24.1",
     "bluebird": "^3.5.0",
+    "node-uuid": "^1.4.8",
     "redis": "^2.7.1",
     "redux": "^3.7.1",
-    "underscore": "^1.8.3",
-    "node-uuid": "^1.4.8"
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/defaults.js"],"names":["path","process","env","STORAGE_PATH"],"mappings":";;;;;kBAAe;AACbA,QAAMC,QAAQC,GAAR,CAAYC,YAAZ,IAA4B;AADrB,C","file":"defaults.js","sourcesContent":["export default {\n  path: process.env.STORAGE_PATH || './'\n};\n"]}
